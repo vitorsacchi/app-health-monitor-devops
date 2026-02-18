@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return {
         "status": "ok",
-        "message": "API rodando com sucesso 🚀",
+        "message": "Deploy automático funcionando tentativa 4",
         "timestamp": int(time.time())
     }
 
