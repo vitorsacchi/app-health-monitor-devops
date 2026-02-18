@@ -1,6 +1,13 @@
-venv/
+# Python
 __pycache__/
-.env
+*.py[cod]
+venv/
+
+# Keys & Secrets
 *.pem
+.env
+
+# Terraform
 .terraform/
-terraform.tfstate*
+*.tfstate
+*.tfstate.backup
